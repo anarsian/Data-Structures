@@ -1,0 +1,21 @@
+# Benchmarking average number of comparisons for successful find
+# Data structure: set
+# Data: shuffled
+# N is power of 2, minus 1, from 1 to 32768
+# Averaging over 5 runs for each N
+#     N        avgcomps        stdev
+      1         2.00000     0.000000
+      3         3.00000     0.000000
+      7         4.14286     0.156492
+     15         5.09333     0.053333
+     31         6.13548     0.051613
+     63         7.19365     0.018511
+    127         8.20000     0.020290
+    255         9.22196     0.033698
+    511        10.26184     0.028585
+   1023        11.25376     0.033685
+   2047        12.30630     0.018913
+   4095        13.29543     0.036552
+   8191        14.35170     0.023717
+  16383        15.35659     0.015749
+  32767        16.35198     0.014638
